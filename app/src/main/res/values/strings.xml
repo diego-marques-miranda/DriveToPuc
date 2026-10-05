@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">DriveToPuc</string>
+    <string name="app_name">Drive-To-PUC</string>
+
+    <string name="login_title">Drive-To-PUC</string>
+    <string name="login_subtitle">Mobilidade mais fácil para a PUC Goiás</string>
+    <string name="email_hint">E-mail</string>
+    <string name="password_hint">Senha</string>
+    <string name="login_button">Entrar</string>
+    <string name="register_prompt">Ainda não possui uma conta?</string>
+    <string name="register_button">Cadastre-se</string>
 </resources>
