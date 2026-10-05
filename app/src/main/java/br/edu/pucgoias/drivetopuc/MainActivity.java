@@ -63,10 +63,8 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        Toast.makeText(
-                this,
-                "Dados válidos. Autenticação será implementada posteriormente.",
-                Toast.LENGTH_SHORT
-        ).show();
+        Intent intent = new Intent(MainActivity.this, HomeActivity.class);
+        startActivity(intent);
+        finish();
     }
 }
