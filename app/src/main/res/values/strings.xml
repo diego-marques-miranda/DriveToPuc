@@ -8,4 +8,19 @@
     <string name="login_button">Entrar</string>
     <string name="register_prompt">Ainda não possui uma conta?</string>
     <string name="register_button">Cadastre-se</string>
+
+    <string name="register_title">Criar conta</string>
+    <string name="register_subtitle">Cadastre-se para começar a usar o Drive-To-PUC</string>
+
+    <string name="name_hint">Nome completo</string>
+    <string name="email_hint_register">E-mail</string>
+    <string name="password_hint_register">Senha</string>
+    <string name="confirm_password_hint">Confirmar senha</string>
+
+    <string name="profile_type">Tipo de usuário</string>
+    <string name="driver">Motorista</string>
+    <string name="passenger">Passageiro</string>
+
+    <string name="create_account">Criar conta</string>
+    <string name="back_to_login">Já possui uma conta? Entrar</string>
 </resources>

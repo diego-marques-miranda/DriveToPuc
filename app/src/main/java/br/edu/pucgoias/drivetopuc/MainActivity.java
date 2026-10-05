@@ -7,6 +7,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import br.edu.pucgoias.drivetopuc.databinding.ActivityMainBinding;
+import android.content.Intent;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,11 +30,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         binding.btnRegister.setOnClickListener(v -> {
-            Toast.makeText(
-                    this,
-                    "Tela de cadastro em desenvolvimento",
-                    Toast.LENGTH_SHORT
-            ).show();
+            Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
+            startActivity(intent);
         });
     }
 
